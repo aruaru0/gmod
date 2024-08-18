@@ -1,0 +1,62 @@
+# math
+## GCD
+GCD calculates the Greatest Common Divisor of two integers using the Euclidean algorithm.
+
+`func GCD(a, b int) int`
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/aruaru0/gmod/math"
+)
+
+func main() {
+    fmt.Println("gcd(6, 2) = ", math.GCD(6, 2))
+}
+```
+
+## ExtGCD
+ExtGCD calculates the Extended Greatest Common Divisor of two integers.
+
+two numbers 𝑎,𝑏 For 𝑎=𝑎′𝑔, 𝑏=𝑏′𝑔 (𝑎′,𝑏′ are relatively prime) such that 𝑔=𝑔𝑐𝑑(𝑎,𝑏) Calculate.
+
+In the extended GCD, 𝑎𝑥+𝑏𝑦=𝑔 
+𝑥,𝑦,𝑔 such that Calculate.
+
+`func ExtGCD(a, b int) (g int, x int, y int)`
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/aruaru0/gmod/math"
+)
+
+func main() {
+    g, x, y := math.ExtGCD(18, 20)
+    fmt.Println("ext gcd(18, 20) = ", g, x, y)}
+```
+
+## LCM
+LCM calculates the Least Common Multiple of two integers.
+
+``
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/aruaru0/gmod/math"
+)
+
+func main() {
+	fmt.Println("lcm(6, 15) = ", math.LCM(6, 15))
+}
+```
