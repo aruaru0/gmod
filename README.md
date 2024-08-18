@@ -3,5 +3,8 @@
 Golang module collection
 
 ## SequenceProcessor
-* NextPermutations
-* Combinations
+* [NextPermutations](SequenceProcessor/README.md)
+* [Combinations](SequenceProcessor/README.md)
+
+## PriorityQueue
+* [PriorityQueue](PriorityQueue/README.md)
