@@ -2,9 +2,14 @@
 
 Golang module collection
 
-## SequenceProcessor
-* [NextPermutations](SequenceProcessor/README.md)
-* [Combinations](SequenceProcessor/README.md)
+## [SequenceProcessor](SequenceProcessor/README.md)
+* NextPermutations
+* Combinations
+ 
+## [PriorityQueue](PriorityQueue/README.md)
+* PriorityQueue
 
-## PriorityQueue
-* [PriorityQueue](PriorityQueue/README.md)
+## [math](math/README.md)
+* GCD
+* ExtGCD
+* LCM
