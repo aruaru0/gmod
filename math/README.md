@@ -60,3 +60,23 @@ func main() {
 	fmt.Println("lcm(6, 15) = ", math.LCM(6, 15))
 }
 ```
+
+## Pfs, PfaMap
+prime factorization
+
+
+`func Pfs(n int) []int`
+`func PfsMap(n int) map[int]int`
+
+```go
+import (
+	"fmt"
+
+	"github.com/aruaru0/gmod/math"
+)
+
+func main() {
+	fmt.Println("pfs(12345678) = ", math.Pfs(123456780))
+	fmt.Println("pfsMap(12345678) = ", math.PfsMap(123456780))
+}
+```
