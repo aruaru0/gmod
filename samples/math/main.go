@@ -25,8 +25,13 @@ func pfstest() {
 	fmt.Println("pfsMap(12345678) = ", math.PfsMap(123456780))
 }
 
+func divisortest() {
+	fmt.Println("divisor(3*5*7) = ", math.Divisor(3*5*7))
+}
+
 func main() {
 	gcdtest()
 	lcmtest()
 	pfstest()
+	divisortest()
 }

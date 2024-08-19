@@ -17,6 +17,7 @@ Golang module collection
 * ExtGCD ... Extended Euclidean mutual division method
 * LCM ... least common multiple
 * Pfs, PfsMap ... prime factorization
+* Divisor ... divisor enumeration
 
 ## [graph](graph/README.md)
 * DSU: UnionFind

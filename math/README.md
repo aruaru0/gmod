@@ -3,6 +3,7 @@
 GCD calculates the Greatest Common Divisor of two integers using the Euclidean algorithm.
 
 `func GCD(a, b int) int`
+returns the greatest common multiple of a and b
 
 ```go
 package main
@@ -28,6 +29,7 @@ In the extended GCD, 𝑎𝑥+𝑏𝑦=𝑔
 
 `func ExtGCD(a, b int) (g int, x int, y int)`
 
+
 ```go
 package main
 
@@ -45,7 +47,9 @@ func main() {
 ## LCM
 LCM calculates the Least Common Multiple of two integers.
 
-``
+`func LCM(a, b int) int`
+returns the least common multiple of a and b
+
 
 ```go
 package main
@@ -66,7 +70,10 @@ prime factorization
 
 
 `func Pfs(n int) []int`
+Returns the result of factorizing n as a list
 `func PfsMap(n int) map[int]int`
+Returns the result of factorizing n as a map
+
 
 ```go
 import (
@@ -78,5 +85,23 @@ import (
 func main() {
 	fmt.Println("pfs(12345678) = ", math.Pfs(123456780))
 	fmt.Println("pfsMap(12345678) = ", math.PfsMap(123456780))
+}
+```
+
+## Divisor
+enumerate divisor
+
+`func Divisor(n int) []int`
+Returns a list of divisors of n (unsorted)
+
+```go
+import (
+	"fmt"
+
+	"github.com/aruaru0/gmod/math"
+)
+
+func main() {
+	fmt.Println("Divisor(3*5*7) = ", math.Divisor(3*5*7))
 }
 ```
