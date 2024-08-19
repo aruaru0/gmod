@@ -2,6 +2,9 @@
 
 Golang module collection
 
+![example workflow](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
+
+
 ## [SequenceProcessor](SequenceProcessor/README.md)
 * NextPermutations　... permutation enumeration
 * Combinations ... Combination enumeration
