@@ -20,7 +20,13 @@ func lcmtest() {
 	fmt.Println("lcm(6, 15) = ", math.LCM(6, 15))
 }
 
+func pfstest() {
+	fmt.Println("pfs(12345678) = ", math.Pfs(123456780))
+	fmt.Println("pfsMap(12345678) = ", math.PfsMap(123456780))
+}
+
 func main() {
 	gcdtest()
 	lcmtest()
+	pfstest()
 }
