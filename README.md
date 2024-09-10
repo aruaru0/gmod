@@ -2,7 +2,7 @@
 
 Golang module collection
 
-![example workflow](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
+![example workflow](https://github.com/aruaru0/gmod/actions/workflows/test.yml/badge.svg)
 
 
 ## [SequenceProcessor](SequenceProcessor/README.md)
